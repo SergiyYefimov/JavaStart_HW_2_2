@@ -1,6 +1,5 @@
 package homeTask5;
 
-import java.text.BreakIterator;
 import java.util.Scanner;
 
 public class task5 {
@@ -17,6 +16,7 @@ public class task5 {
 			System.out.println("Incorrect appartment number!");
 			System.exit(911);
 		}
+		input.close();
 		for (i = 1; i <= 4; i++) {
 			if ((apNumb > (36 * (i - 1)) && (apNumb <= (36 * i)))) {
 				acc = i;
